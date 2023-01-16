@@ -1,4 +1,4 @@
-FROM centos:7
+FROM redhat/ubi8:latest
 RUN yum install -y gettext
 
 RUN mkdir /workdir /processed
